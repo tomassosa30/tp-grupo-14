@@ -335,6 +335,10 @@ grid-area: footer;
   {
     justify-items: center;
   }
+  .maintitle
+  {
+    left: 30%;
+  }
 }
 
 /*Contenido del side*/

@@ -143,8 +143,8 @@ grid-area: footer;
   }
   .headernav  
   {
-    left: 0%;
-    width: 100%;
+    left: 5%;
+    width: 50%;
   }
   .navitem1
   {
@@ -162,7 +162,7 @@ grid-area: footer;
     align-items: center;
     padding: 0;
     margin: 0;
-    right: 10%;
+    left: 5%;
     border: none;
   }
   #menu1, #menu2, #menu3, #menu4
@@ -176,6 +176,10 @@ grid-area: footer;
     list-style: none;
     position: relative;
     right: 50%;
+  }
+  #barradebusqueda
+  {
+    width: 90%;
   }
 }
 @media screen and (max-width: 858px)

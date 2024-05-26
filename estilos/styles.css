@@ -189,6 +189,28 @@ grid-area: footer;
     left: 0%;
   }
 }
+@media screen and (max-width: 600px)
+{
+  .container-head
+  {
+    padding-left: 2%;
+  }
+  .tituloprincipal
+  {
+    position: relative;
+    left: 5%;
+    width: 50%;
+  }
+  .navitem1
+  {
+    display: none;
+  }
+  .navitem2
+  {
+   left: 55%; 
+  }
+}
+
 
 /*Contenido de la sección principal*/
 .mainsection
@@ -294,6 +316,26 @@ grid-area: footer;
     max-width: 6em;
   }
 }
+@media screen and (max-width: 600px)
+{
+  body
+  {
+    grid-template: 1fr 1fr 1fr 1fr / 1fr;
+    grid-template-areas: "header"
+    "left"
+    "right"
+    "footer";
+    height: 100vh;
+  }
+  .mainsection
+  {
+    width: 80%;
+  } 
+  .maingridarea
+  {
+    justify-items: center;
+  }
+}
 
 /*Contenido del side*/
 .gridsideimg
@@ -365,6 +407,20 @@ iframe
   {
     position: relative;
     left: -1em;
+  }
+}
+@media screen and (max-width: 600px)
+{
+  .side
+  {
+    width: 30%;
+    top: 0%;
+    left: 25%;
+  }
+  iframe
+  {
+    top: 0;
+    left: 25%;
   }
 }
 

@@ -331,13 +331,13 @@ grid-area: footer;
   {
     width: 80%;
   } 
-  .maingridarea
-  {
-    justify-items: center;
-  }
   .maintitle
   {
     left: 23%;
+  }
+  .maingridarea
+  {
+    justify-items: center;
   }
 }
 
